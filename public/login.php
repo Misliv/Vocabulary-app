@@ -29,7 +29,7 @@ if (isset($_POST['knop'])
 {
     $message = "Gegevens kloppen niet.";
 } else {
-    $message = "Inloggen";
+    $message = "Login";
 }
 ?>
 <!DOCTYPE html>
@@ -39,6 +39,8 @@ if (isset($_POST['knop'])
     <title>Login</title>
 </head>
 <body>
+<h1><?php echo $message; ?></h1>
+<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
 <main>
     <form action="login.php" method="post">
         <h1>Login</h1>
