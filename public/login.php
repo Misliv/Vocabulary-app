@@ -48,8 +48,6 @@ if (isset($_POST['knop'])
     </div>
     <input type="submit" name="knop">
 </form>
-<p><a href="adminPage.php">Admin website</a></p>
-<p><a href="login.php?uitloggen">Uitloggen</a></p>
 <p><a href="register.php">Registreren</a></p>
 </body>
 </html>
