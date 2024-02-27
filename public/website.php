@@ -6,10 +6,10 @@ if(isset($_SESSION["user"])) {
 
 
 } else {
-    header('location: 7v1login.php');
+    header('location: login.php');
 }
 
 ?>
 
-<p><a href="admin.php">Admingedeelte website</a></p>
+<p><a href="adminPage.php">Admingedeelte website</a></p>
 <p><a href="login.php?loguit">Uitloggen</a></p>
