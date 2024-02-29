@@ -50,4 +50,5 @@ if (isset($_POST['knop'])
 </form>
 <p><a href="register.php">Registreren</a></p>
 </body>
+test
 </html>
