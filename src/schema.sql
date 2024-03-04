@@ -32,7 +32,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 
 
-/* TODO     vul hier de inserts in voor de 200 woorden van sietske
+/* TODO     vul hier de inserts in voor de 2000 woorden van sietske
  */
  /*INSERT INTO woordenlijst (idwoordenlijst, woord, soort)
  VALUES ('1', 'aan', 'voorzetsel' );
