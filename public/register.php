@@ -10,8 +10,12 @@
     <form action="register.php" method="post">
         <h1>Sign Up</h1>
         <div>
-            <label for="username">Username:</label>
-            <input type="text" name="username" id="username">
+            <label for="firstName">firstName:</label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+        <div>
+            <label for="lastname">lastName:</label>
+            <input type="text" name="lastName" id="lastName">
         </div>
         <div>
             <label for="email">Email:</label>
