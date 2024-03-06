@@ -19,7 +19,7 @@ if(isset($_SESSION["user"])) {
 </head>
 <body>
 <p><a href="woordenlijst.php">Oefenen</a></p>
-<p>Voeg eigen woorden toe</p>
+<p><a href="woordenlijst.php">Bewerk woordenlijst</a></p>
 <p><a href="adminPage.php">Admingedeelte website</a></p>
 <p><a href="login.php?loguit">Uitloggen</a></p>
 </body>
