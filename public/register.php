@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,11 +9,11 @@
     <form action="register.php" method="post">
         <h1>Sign Up</h1>
         <div>
-            <label for="firstName">firstName:</label>
+            <label for="firstName">First name:</label>
             <input type="text" name="firstName" id="firstName">
         </div>
         <div>
-            <label for="lastname">lastName:</label>
+            <label for="lastname">Last name:</label>
             <input type="text" name="lastName" id="lastName">
         </div>
         <div>
