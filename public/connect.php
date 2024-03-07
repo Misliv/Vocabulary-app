@@ -25,7 +25,7 @@ $conn = new mysqli('localhost','root', '');
         $stmt = $conn->prepare( "INSERT INTO login(firstName, lastName, mail, password2) VALUES (?,?,?,?) ;");
         $stmt ->bind_param("ssss", $firstName, $lastName, $email, $password2);
         $stmt ->execute();
-        echo "registration succesfully";
+        echo "registration succesful";
         $stmt ->close();
         $conn->close();
 
