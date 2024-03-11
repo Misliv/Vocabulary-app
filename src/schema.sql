@@ -77,8 +77,8 @@ SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 /* TODO     vul hier de inserts in voor de 2000 woorden van sietske
- */
- /*INSERT INTO woordenlijst (idWoordenlijst, woord, soort)
+
+ INSERT INTO woordenlijst (idWoordenlijst, woord, soort)
  VALUES ('1', 'aan', 'voorzetsel' );
 
 INSERT INTO woordenlijst (idWoordenlijst, woord, soort)
