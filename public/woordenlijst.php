@@ -39,15 +39,10 @@ class TableRows extends RecursiveIteratorIterator {
     }
 }
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "woordenschatapp";
-
 try {
-    $conn = new PDO("mysql:host=$servername;dbname = $dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $conn->prepare("SELECT id, woorden, woordsoort FROM woordenlijst");
+    $dbh = new PDO('mysql:host=localhost; dbname=apotheek; port=3306', 'root', '');
+    $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $stmt = $dbh->prepare("SELECT * FROM medicijn");
     $stmt->execute();
 
     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
