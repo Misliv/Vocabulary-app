@@ -17,6 +17,7 @@
     <title>Woordenlijst</title>
 </head>
 <body>
+<p><a href="website.php">Main screen</a></p>
 <?php
 echo "<table style 'border: solid 1px black;'>";
 echo "<tr><th>Id</th><th>Woord</th><th>Woordsoort</th></tr>";
@@ -39,9 +40,9 @@ class TableRows extends RecursiveIteratorIterator {
 }
 
 try {
-    $dbh = new PDO('mysql:host=localhost; dbname=apotheek; port=3306', 'root', '');
+    $dbh = new PDO('mysql:host=localhost; dbname=woordenschatapp; port=3306', 'root', '');
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $dbh->prepare("SELECT * FROM medicijn");
+    $stmt = $dbh->prepare("SELECT * FROM woordenlijst");
     $stmt->execute();
 
     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
