@@ -17,7 +17,6 @@
     <title>Woordenlijst</title>
 </head>
 <body>
-woordenlijst hier
 <?php
 echo "<table style 'border: solid 1px black;'>";
 echo "<tr><th>Id</th><th>Woord</th><th>Woordsoort</th></tr>";
