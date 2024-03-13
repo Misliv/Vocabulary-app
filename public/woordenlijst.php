@@ -39,9 +39,9 @@ class TableRows extends RecursiveIteratorIterator {
 }
 
 try {
-    $dbh = new PDO('mysql:host=localhost; dbname=apotheek; port=3306', 'root', '');
+    $dbh = new PDO('mysql:host=localhost; dbname=woordenschatapp; port=3306', 'root', '');
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $stmt = $dbh->prepare("SELECT * FROM medicijn");
+    $stmt = $dbh->prepare("SELECT * FROM woordenlijst");
     $stmt->execute();
 
     $result = $stmt->setFetchMode(PDO::FETCH_ASSOC);
