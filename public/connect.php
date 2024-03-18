@@ -33,4 +33,7 @@ $conn = new mysqli('localhost','root', '');
 
 
     }
+if ($_POST["password"] !== $_POST["password2"]){
+    die("Passwords must match");
+}
 
