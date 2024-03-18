@@ -18,8 +18,8 @@ if(isset($_SESSION["user"])) {
     <title>Homescreen</title>
 </head>
 <body>
-<p><a href="woordenlijst.php">Oefenen</a></p>
-<p><a href="woordenlijst.php">Bewerk woordenlijst</a></p>
+<p><a href="folders/folders.php">Oefenen</a></p>
+<p><a href="folders/folders.php">Bewerk woordenlijst</a></p>
 <p><a href="adminPage.php">Admingedeelte website</a></p>
 <p><a href="login.php?loguit">Uitloggen</a></p>
 </body>
