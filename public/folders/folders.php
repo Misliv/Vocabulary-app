@@ -23,6 +23,6 @@
 </tr>
     </tbody>
 </table>
-<p>Maak een nieuwe folder</p>
+<p>Maak een nieuwe folder aan</p>
 </body>
 </html>

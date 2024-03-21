@@ -18,7 +18,7 @@
 </head>
 <body>
 <h1>2000 meest gebruikte woorden</h1>
-<p><a href="../website.php">Terug naar folders</a></p>
+<p><a href="folders.php">Terug naar folders</a></p>
 <?php
 echo "<table style 'border: solid 1px black;'>";
 echo "<tr><th>Id</th><th>Woord</th><th>Woordsoort</th></tr>";
