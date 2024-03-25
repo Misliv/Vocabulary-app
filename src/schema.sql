@@ -68,7 +68,8 @@ CREATE TABLE IF NOT EXISTS `woordenschatapp`.`login` (
                                                          `lastName` VARCHAR(45) NULL,
                                                          `mail` VARCHAR(45) NULL,
                                                          `password2` VARCHAR(45) NULL,
-                                                         PRIMARY KEY (`idlogin`))
+                                                         PRIMARY KEY (`idlogin`),
+                                                         UNIQUE INDEX `mail_UNIQUE` (`mail` ASC) VISIBLE)
     ENGINE = InnoDB;
 
 
@@ -433,7 +434,7 @@ INSERT INTO woordenlijst (idWoordenlijst, woord, soort)
 VALUES ('118', 'antwoorden', ' normaal woord' );
 
 INSERT INTO woordenlijst (idWoordenlijst, woord, soort)
-VALUES ('119', 'antwoorden', ' normaal woord' );
+VALUES ('119', 'antwoorden', ' normaal woord' ); 
 
 
 */

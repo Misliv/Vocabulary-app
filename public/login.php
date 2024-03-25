@@ -34,6 +34,7 @@ if (isset($_POST['knop'])
 } else {
     $message = "Inloggen";
 }
+
 ?>
 
 <html>

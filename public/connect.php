@@ -17,10 +17,10 @@ $conn = new mysqli('localhost','root', '');
                 echo $result;
             }
         }*/
-        echo $firstName;
+        /*echo $firstName;
         echo $lastName;
         echo $email;
-        echo $password2;
+        echo $password2;*/
         mysqli_select_db($conn,"woordenschatapp");
         $stmt = $conn->prepare( "INSERT INTO login(firstName, lastName, mail, password2) VALUES (?,?,?,?) ;");
         $stmt ->bind_param("ssss", $firstName, $lastName, $email, $password2);
@@ -28,10 +28,6 @@ $conn = new mysqli('localhost','root', '');
         echo "registration succesful";
         $stmt ->close();
         $conn->close();
-
-
-
-
     }
 if ($_POST["password"] !== $_POST["password2"]){
     die("Passwords must match");
