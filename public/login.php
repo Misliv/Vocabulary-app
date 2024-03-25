@@ -37,6 +37,9 @@ if (isset($_POST['knop'])
 ?>
 
 <html>
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+</head>
 <body>
 <h1><?php echo $message; ?></h1>
 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
