@@ -16,6 +16,8 @@ if(isset($_SESSION["user"])) {
 <head>
     <meta charset="UTF-8">
     <title>Homescreen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
 </head>
 <body>
 <p><a href="folders/folders.php">Oefenen</a></p>

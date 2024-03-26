@@ -3,10 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Register</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
 </head>
 <body>
 <main>
-    <form action="connect.php" method="post">
+    <form action="process-signup.php" method="post" novalidate>
         <h1>Sign Up</h1>
         <div>
             <label for="firstName">First name:</label>
@@ -28,7 +30,7 @@
             <label for="password2">Password Again:</label>
             <input type="password" name="password2" id="password2">
         </div>
-        
+
 
         <button type="submit">Register</button>
         <footer>Already a member? <a href="login.php">Login here</a></footer>

@@ -7,6 +7,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Homescreen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
 </head>
 <body>
 <h1>Folders</h1>
