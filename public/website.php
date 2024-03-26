@@ -20,8 +20,8 @@ if(isset($_SESSION["user"])) {
 
 </head>
 <body>
-<p><a href="folders/folders.php">Oefenen</a></p>
-<p><a href="folders/folders.php">Bewerk woordenlijst</a></p>
+<p><a href="practice folders/folders.php">Oefenen</a></p>
+<p><a href="practice folders/folders.php">Bewerk woordenlijst</a></p>
 <p><a href="adminPage.php">Admingedeelte website</a></p>
 <p><a href="login.php?loguit">Uitloggen</a></p>
 </body>

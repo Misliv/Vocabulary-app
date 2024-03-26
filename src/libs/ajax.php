@@ -1,5 +1,6 @@
 <?php
 include "../schema.sql";
+include "public/folders/woordenlijst.php";
 
 if (isset($_POST['search'])) {
     $Name = $_POST['search'];
